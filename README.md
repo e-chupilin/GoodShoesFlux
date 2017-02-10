@@ -1,2 +1,1 @@
-"# GoodShoesClient" 
-# GoodShoesFlux
+GoodShoesFlux
