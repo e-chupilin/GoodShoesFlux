@@ -1,0 +1,20 @@
+[
+  { "login": "ded",
+    "name": "Ded Kamazi",
+    "email": "ded@ded.com",
+    "phone": "+375921111111",
+    "foto": "r"
+  }
+  { "login": "manager",
+    "name": "Super Manager !",
+    "email": "manager@cool.com",
+    "phone":"+37597777777",
+    "foto": "q"
+  }
+  { "login": "admin",
+    "name": "Admin Admin",
+    "email": "admin@admin.com",
+    "phone": "+3759299999999",
+    "foto": ""
+  }
+]

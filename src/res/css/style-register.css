@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSansRegular.eot");
+  src: local('☺'),
+  url("../fonts/OpenSansRegular.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/OpenSansRegular.woff") format("woff"),
+  url("../fonts/OpenSansRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold.eot");
+  src: local('☺'),
+  url("../fonts/OpenSansBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/OpenSansBold.woff") format("woff"),
+  url("../fonts/OpenSansBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+font-family: "HelveticaRegular";
+  src: url("../fonts/HelveticaRegular.eot");
+  src: local('☺'),
+  url("../fonts/HelveticaRegular.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/HelveticaRegular.woff") format("woff"),
+  url("../fonts/HelveticaRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  font-size: 17px;
+  color: #878787;
+  user-select: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+  background:
+  linear-gradient(45deg,rgba(0, 0, 0, 0) 5px,#F7F7F7 5px, #F7F7F7 6px, rgba(0, 0, 0, 0) 6px),
+  linear-gradient(-45deg,rgba(0, 0, 0, 0) 6px, #F7F7F7 6px, #F7F7F7 7px, rgba(0, 0, 0, 0) 7px);
+  background-size: 8px 8px;
+  background-position: left top;
+  background-repeat: repeat;
+    }
+
+.wrapper-register {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #CCCCCC;
+  box-shadow: 0 0 8px #CCCCCC;
+  width: 430px;
+  height: 570px;
+  background-color: #FBFBFB;
+  font-family: OpenSansBold;
+  font-size: 15px;
+}
+
+.wrapper-register input {
+  margin-left: 5px;
+  font-family: HelveticaRegular, sans-serif;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 1px 1px 3px #CCCCCC;
+  color: #364654;
+  height: 30px;
+  font-size: 19px;
+  padding-left: 10px;
+  width: 200px;
+}
+
+.input-data div {
+  position: relative;
+  display: block;
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+
+.register-btn {
+  color: #4781AE;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  background: linear-gradient(to top, #F3F3F3, #F9F9F9);
+  text-align: center;
+  padding-top: 5px;
+  user-select: none;
+}
+
+.register-btn:hover {
+  color: #2761AE;
+  background: linear-gradient(to top, #D1D1D1, #F8F8F8);
+}
+
+.logo-image {
+    float: left;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    background: url('../images/LogoImage.png') no-repeat center;
+    margin: 30px 0 0 30px;
+}
+
+.register-header {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.register-header p {
+  float: left;
+  margin-top: 50px;
+  margin-left: 40px;
+  font-family: OpenSansBold;
+  font-size: 25px;
+  color: #4781A4;
+}
